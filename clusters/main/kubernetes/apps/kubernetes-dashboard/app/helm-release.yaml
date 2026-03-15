@@ -37,9 +37,6 @@ spec:
         ports:
           main:
             port: 80
-        integrations:
-          metallb:
-            enabled: true
     ingress:
       main:
         enabled: true
